@@ -44,7 +44,7 @@ class ImageDecoder(object):
 	def __init__(self):
 		# Create a single TensorFlow Session for all image decoding calls.
 		config = tf.ConfigProto()
-		config.gpu_options.visible_device_list= '1'
+		config.gpu_options.visible_device_list= '0'
 		self._sess = tf.Session(config=config)
 
 		# TensorFlow ops for JPEG decoding.
