@@ -14,7 +14,7 @@
 		* In the augmentation code I have taken few static things and used multiprocessing, please use it carefully and change it as per your data.
 	* Generate TF_Records 
 		python generate_tfrecords.py --image_dir={path to your input images} --label_dir={path to your label images} --tfr_dir=./tf_records
-	* Download models from https://drive.google.com/drive/folders/1B3CYhD0oxkOcrXGXh7SRA1_dKIQgTAon?usp=sharing and copy the items to models directory
+	* Download [(models)](https://drive.google.com/drive/folders/1B3CYhD0oxkOcrXGXh7SRA1_dKIQgTAon?usp=sharing) and copy the items to models directory
 	* Training network
 		python train.py --tf_record_pattren=./tf_records/train-?????-of-00002 --resnet_50_checkpoint_path=./models/res50/resnet_v2_50.ckpt --batch_size=16 --train_outs=./train_outs
 
