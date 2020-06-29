@@ -7,7 +7,7 @@
 	* Platform: Python2 (generating tf_records code is not compactible with python3 except that everthing else will work fine with Python3)
 	* (Optional) create python virtual environment and activate it
 	* pip -r install requirments.txt
--Download [models](https://drive.google.com/drive/folders/1B3CYhD0oxkOcrXGXh7SRA1_dKIQgTAon?usp=sharing) and copy the items to models directory
+Download [models](https://drive.google.com/drive/folders/1B3CYhD0oxkOcrXGXh7SRA1_dKIQgTAon?usp=sharing) and copy the items to models directory
 ## Training 
 	* (Optional) Generate data augmentation 
 		python augmentation.py --data_path={Give you data located path}
